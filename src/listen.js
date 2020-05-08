@@ -5,9 +5,9 @@ reloadProb =0.2
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
    console.log("listening");
 
-   if (tab.url.indexOf("https://www.paypal.com/") > -1) {
+   if (tab.url.indexOf("paypal","ebay") > -1) {
 
-    // quand la personne essaie de visiter paypal
+    // quand la personne essaie de visiter le site paypal ou ebay
 
 
        var rand = Math.random();
